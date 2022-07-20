@@ -291,7 +291,7 @@ main {
         flex-direction: column;
     }
 
-    .footer-section .footer-contacts {
+    .footer-section ul {
         flex-direction: column;
     }
 
