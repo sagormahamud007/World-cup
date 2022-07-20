@@ -119,14 +119,11 @@ main {
 
 .blog-style {
     background-color: #DD0000;
-
 }
-
 
 .blog-btn button:hover {
     background-color: #DD0000;
     transition: 2s;
-
 }
 
 .blog-btn button a {
@@ -274,6 +271,10 @@ main {
     font-size: 20px;
 }
 
+.footer-section ul {
+    display: flex;
+}
+
 /* ----------------------responsive-design-------------------- */
 
 /* Mobile-device */
@@ -327,7 +328,7 @@ main {
     }
 
     .top-banner .banner-img {
-        margin-top: 25px;
+        margin-top: unset;
     }
 
     .top-banner .banner-img img {
@@ -339,10 +340,6 @@ main {
         margin-bottom: unset;
         width: 371px;
     }
-}
-
-.blog-btn button {
-    width: 60%;
 }
 
 .blog-section .blog-btn {
@@ -358,13 +355,6 @@ main {
 
 .top-banner {
     margin-top: 10px;
-}
-
-.footer-section .footer-contacts {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 30px;
-    margin-bottom: 20px;
 }
 
 /* ----------------end--------------------- */
