@@ -15,7 +15,7 @@ body {
 
 /* --------------------start-top-banner----------------- */
 .container {
-    padding: 0 120px;
+    width: 1350px;
 }
 
 .top-section {
@@ -205,71 +205,4 @@ body {
 
 /* Mobile-device */
 
-@media only screen and (max-width: 600px) {
-    .top-banner {
-        height: unset;
-        flex-direction: column;
-        margin-bottom: unset;
-    }
-
-    .top-section {
-        text-align: center;
-    }
-
-    .banner-content p {
-        margin: 0 auto;
-    }
-
-    .banner-content {
-        margin-bottom: 50px;
-        margin-top: 50px;
-    }
-
-    .banner-content .banner-btn {
-        margin-top: 30px;
-    }
-
-    .blog-section {
-        display: unset;
-    }
-
-    .blog-section .blog-btn {
-        margin-right: unset;
-        margin-top: 70px;
-        margin-bottom: 30px;
-    }
-
-    .blog-btn {
-        background-color: unset;
-        height: unset;
-        display: flex;
-        justify-content: space-around;
-        padding: 10px 0;
-    }
-
-    .grid-conatiner {
-        grid-template-columns: 1fr;
-    }
-
-    .grid-item .grid-info {
-        text-align: center;
-    }
-
-    .grid-item .blogs-info img {
-        width: unset;
-    }
-
-    .footer-section {
-        width: 100%;
-    }
-
-    .container {
-        width: unset;
-    }
-
-    .blog-section {
-        display: flex;
-        width: unset;
-        justify-content: center;
-    }
-}
+@media only screen and (max-width: 600px) {}
