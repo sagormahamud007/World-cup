@@ -234,6 +234,8 @@ main {
 
 .horizentale {
     border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin: 0 auto;
 }
 
 .footer-section .footer-contacts {
@@ -263,16 +265,20 @@ main {
     font-weight: 400;
     line-height: 50px;
     color: #B9B9B9;
+    transition: 2s;
 }
 
 .footer-section .footer-contacts li a:hover {
     color: #ffffff;
-    transition: 1s;
-    font-size: 20px;
+    transition: 2s;
+    font-size: 18px;
 }
 
 .footer-section ul {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 /* ----------------------responsive-design-------------------- */
@@ -280,7 +286,12 @@ main {
 /* Mobile-device */
 
 @media only screen and (max-width: 600px) {
+
     .top-banner {
+        flex-direction: column;
+    }
+
+    .footer-section .footer-contacts {
         flex-direction: column;
     }
 
@@ -328,7 +339,7 @@ main {
     }
 
     .top-banner .banner-img {
-        margin-top: unset;
+        margin-top: 10px;
     }
 
     .top-banner .banner-img img {
@@ -347,6 +358,11 @@ main {
     text-align: center;
 }
 
+.footer-contacts {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: block;
+}
 
 .blog-btn button:hover {
     width: 100%;
@@ -355,6 +371,10 @@ main {
 
 .top-banner {
     margin-top: 10px;
+}
+
+.blog-btn button {
+    width: 262px;
 }
 
 /* ----------------end--------------------- */
