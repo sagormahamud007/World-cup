@@ -107,13 +107,20 @@ main {
     border-radius: 5px;
 }
 
+.blog-style a {
+    color: #ffffff;
+}
+
 .blog-style {
     background-color: #DD0000;
 
 }
 
-.blog-style a {
-    color: #FFFFFF;
+
+.blog-btn button:hover {
+    background-color: #DD0000;
+    transition: 2s;
+
 }
 
 .blog-btn button a {
@@ -121,6 +128,7 @@ main {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
+    color: #161616;
 }
 
 .blog-section {
@@ -204,6 +212,56 @@ main {
 /* ---------------------------------------- 
               footer-start
  ---------------------------------------- */
+.footer-section {
+    background-color: #161616;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.fotter-title h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.horizentale {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-section .footer-contacts {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin-right: 30px;
+}
+
+.social-icons a:hover {
+    color: rgb(112, 209, 233);
+}
+
+.footer-section .footer-contacts li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.footer-section .footer-contacts li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #B9B9B9;
+}
+
+.footer-section .footer-contacts li a:hover {
+    color: #dd6b6b;
+    transition: 1s;
+}
 
 /* ----------------------responsive-design-------------------- */
 
@@ -237,17 +295,24 @@ main {
     }
 
     .banner-content h2 {
-        font-size: 33px;
+        font-size: 23px;
         line-height: unset;
+        width: 228px;
+    }
+
+    .banner-content .banner-btn a {
+        font-size: 14px;
     }
 
     .banner-content p {
-        font-size: 12px;
+        font-size: 10px;
         line-height: unset;
+        width: 258px;
     }
 
     .banner-content {
         text-align: center;
+        margin-top: 30px;
     }
 
     .top-banner .banner-img {
@@ -259,8 +324,100 @@ main {
     }
 
     .top-banner {
-        height: 574px;
+        height: 600px;
         margin-bottom: unset;
-        width: 493px;
+        width: 346px;
     }
+
+    .blog-btn button {
+        width: 162px;
+    }
+
+    .blog-section .blog-btn {
+        margin-right: unset;
+        text-align: center;
+    }
+
+    .blog-btn button:hover {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .top-banner {
+        margin-top: 10px;
+    }
+
+    .footer-section .footer-contacts {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:1023px) {
+    .blog-section {
+        display: unset;
+    }
+
+    .grid-conatiner {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .blog-btn {
+        background-color: unset;
+        height: unset;
+    }
+
+    main {
+        overflow: hidden;
+    }
+
+    .container {
+        width: unset;
+        padding: 0 80px;
+
+    }
+
+    .grid-item .blogs-info img {
+        width: unset;
+        width: 100%;
+    }
+
+    .blog-section .blog-btn {
+        margin-right: unset;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top-banner {
+        margin-top: 10px;
+        margin-bottom: unset;
+    }
+
+    .banner-content h2 {
+        line-height: unset;
+        font-size: 30px;
+    }
+
+    .blog-btn button {
+        margin: 50px 9px;
+    }
+
+    .top-banner .banner-img img {
+        width: unset;
+        width: unset;
+        margin-top: 206px;
+    }
+
+    .banner-content p {
+        width: 325px;
+    }
+
+    .top-banner {
+        width: 774px;
+    }
+
 }
