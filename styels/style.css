@@ -316,7 +316,7 @@ main {
     }
 
     .top-banner .banner-img {
-        margin-top: 20px;
+        margin-top: unset;
     }
 
     .top-banner .banner-img img {
@@ -330,13 +330,14 @@ main {
     }
 
     .blog-btn button {
-        width: 162px;
+        width: 60%;
     }
 
     .blog-section .blog-btn {
         margin-right: unset;
         text-align: center;
     }
+
 
     .blog-btn button:hover {
         width: 100%;
