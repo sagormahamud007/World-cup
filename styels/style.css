@@ -316,15 +316,15 @@ main {
     }
 
     .top-banner .banner-img {
-        margin-top: unset;
+        margin-top: 50px;
     }
 
     .top-banner .banner-img img {
-        width: unset;
+        width: 100%;
     }
 
     .top-banner {
-        height: 600px;
+        height: 630px;
         margin-bottom: unset;
         width: 346px;
     }
