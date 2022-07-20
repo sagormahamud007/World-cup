@@ -15,7 +15,7 @@ body {
 
 /* --------------------start-top-banner----------------- */
 .container {
-    width: 1400px;
+    padding: 0 120px;
 }
 
 .top-section {
@@ -201,7 +201,6 @@ body {
               footer-start
  ---------------------------------------- */
 
-
 /* ----------------------responsive-design-------------------- */
 
 /* Mobile-device */
@@ -210,10 +209,6 @@ body {
     .top-banner {
         height: unset;
         flex-direction: column;
-    }
-
-    .top-banner {
-        height: unset;
         margin-bottom: unset;
     }
 
@@ -261,11 +256,20 @@ body {
     }
 
     .grid-item .blogs-info img {
-        width: 100%;
+        width: unset;
     }
 
     .footer-section {
         width: 100%;
     }
 
+    .container {
+        width: unset;
+    }
+
+    .blog-section {
+        display: flex;
+        width: unset;
+        justify-content: center;
+    }
 }
